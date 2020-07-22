@@ -2,6 +2,14 @@ class Student {
     int name;
     int id;
 
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name=" + name +
+                ", id=" + id +
+                '}';
+    }
+
     public int getName() {
         return name;
     }
