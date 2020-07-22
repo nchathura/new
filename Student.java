@@ -11,7 +11,7 @@ class Student {
     }
 
     public int getName() {
-        return name;
+        return "nadeepa";
     }
 
     public void setName(int name) {
